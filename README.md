@@ -1,3 +1,5 @@
+# migration
+
 新しいMacに移行する際に使用する
 
 下記コマンド入力
@@ -10,4 +12,3 @@ makeコマンドでできる設定
 - vim-plug
 - dotfiles
 - symbolic link
-# migration
