@@ -1,6 +1,6 @@
 # symbolic links
 GITDIR_PATH=~/transition/dotfiles/
-# GITDIR_PATH=~/dev/git/dotfiles
+# GITDIR_PATH=~/dev/git/migration/dotfiles
 echo "GITDIR_PATH=$GITDIR_PATH"
 
 ## ~/.zshrc
