@@ -12,3 +12,16 @@ makeコマンドでできる設定
 - vim-plug
 - dotfiles
 - symbolic link
+
+# その他設定
+
+## キーボード設定
+[システム環境設定]→[キーボード]→[修飾キー]
+
+Caps lock → Controlに変更
+
+---
+
+[システム環境設定]→[キーボード]→[入力ソース]
+
+google-japanese-imeをデフォルトソースに変更
