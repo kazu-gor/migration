@@ -15,7 +15,3 @@ brew bundle -v --global
 echo 'vim-plug is being installed...'
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim' > /dev/null
-
-# git 
-echo 'dotfiles is being installed...'
-git clone https://github.com/kazu-gor/dotfiles.git ./dotfiles
