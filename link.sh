@@ -1,3 +1,10 @@
+#!/bin/bash
+
+if [ "$(uname)" != "Darwin" ] ; then
+	echo "Not macOS!"
+	exit 1
+fi
+
 # git 
 echo 'dotfiles are being installed...'
 git clone https://github.com/kazu-gor/dotfiles.git $(pwd)/dotfiles
