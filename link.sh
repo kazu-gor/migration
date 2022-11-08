@@ -5,7 +5,7 @@ if [ "$(uname)" != "Darwin" ] ; then
 	exit 1
 fi
 
-# git 
+# git clone
 echo 'dotfiles are being installed...'
 git clone https://github.com/kazu-gor/dotfiles.git $(pwd)/dotfiles
 
@@ -14,7 +14,6 @@ echo symbolic links are being setting...
 DOTFILES_PATH=$(pwd)/dotfiles
 
 echo "dotfile paths are $DOTFILES_PATH..."
-
 ## ~/.zshrc
 echo ~/.zshrc are being setting...
 ln -fnsv $DOTFILES_PATH/.zshrc ~/.zshrc

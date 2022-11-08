@@ -1,7 +1,9 @@
-all: init setup link
+all: init setup link vim
 
 setup: 
 	bash setup.sh
+vim:
+	bash setup-vim.sh
 init:
 	bash init.sh
 link:
