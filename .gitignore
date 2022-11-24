@@ -1,2 +1,5 @@
 # dir
 dotfiles/
+
+# file
+.DS_Store
